@@ -1,0 +1,31 @@
+import { gql } from "@apollo/client";
+export const LOAD_CATEGORIES = gql`
+    query{
+        categories{
+            name
+            products{
+                id
+                name
+                gallery
+                inStock
+                description
+                category
+                brand
+                attributes{
+                    name
+                    type
+                    items{
+                        displayValue
+                        value
+                    }
+                }
+                prices{
+                    currency{
+                    symbol
+                    }
+                    amount
+                }
+            }
+        }
+    }
+`
