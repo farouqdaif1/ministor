@@ -39,7 +39,6 @@ export const StyledLink = styled(Link)`
     text-decoration: none;
     color: black;
     cursor: pointer;
-
     &:hover{
       text-decoration: underline;
       font-size: 16px;
@@ -50,13 +49,11 @@ export const StyledLink = styled(Link)`
       text-align: center;
       color: #5ECE7B;
       cursor: pointer;
-
     }
 `;
 export const ShoppingCart = styled.div`
 position:relative;
 cursor: pointer;
-
 
 `
 export const Number = styled.span`
@@ -74,7 +71,6 @@ left:50%;
 `
 export const Change = styled.div`
 display:flex;
-
 `
 export const Smoney = styled.select`
 display:flex;
